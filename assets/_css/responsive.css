@@ -1,0 +1,29 @@
+/* lg */ 
+@media (min-width: 1200px) {}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* sm */
+@media (max-width: 991px) {
+    .product-info-txt {
+        margin-top: 20px;
+    }
+    .page-header .nav.navbar-nav .nav-img-a {
+        padding: 15px;
+    }
+}
+
+/* xs */
+@media (max-width: 767px) {}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+    #intro {
+        display: none;
+    }
+    .order-time {
+        margin-left: 0;
+        display: block;
+    }
+}
