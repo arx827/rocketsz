@@ -45,9 +45,12 @@ body {
 /* Page on Scroll */
 .page-on-scroll .page-header {
   background: #fff;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .page-on-scroll .page-header .navbar {
     background: rgba(255, 191, 0, .9); }
 
@@ -63,9 +66,12 @@ body {
     border-radius: 0;
     margin-bottom: 0;
     background: rgba(0,0,0,.5);
-    transition-duration: 100ms;
+    -webkit-transition-duration: 100ms;
+            transition-duration: 100ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .page-header .navbar-toggle {
     border: none;
     margin: 25px 15px 25px 0; }
@@ -77,9 +83,12 @@ body {
     line-height: 50px;
     display: inline-block;
     vertical-align: middle;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .page-header .navbar-brand img {
       width: 220px;
       height: auto;
@@ -90,9 +99,12 @@ body {
   .page-header .navbar-nav li {
     padding: 25px 1px;
     line-height: 20px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .page-header .navbar-nav li > a {
     font-size: 14px;
     font-weight: 400;
@@ -217,18 +229,24 @@ body {
       height: 70px;
       max-height: 70px;
       line-height: 49px;
-      transition-duration: 400ms;
+      -webkit-transition-duration: 400ms;
+              transition-duration: 400ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
       .page-on-scroll .page-header .navbar-brand img.logo-scroll {
         display: block; }
       .page-on-scroll .page-header .navbar-brand img.logo-default {
         display: none; }
     .page-on-scroll .page-header .navbar-nav li {
       padding: 19px 1px;
-      transition-duration: 400ms;
+      -webkit-transition-duration: 400ms;
+              transition-duration: 400ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .page-on-scroll .page-header .navbar-nav li > a {
       color: #3f5263; }
     .page-on-scroll .page-header .navbar-nav li > a:hover,
@@ -265,9 +283,12 @@ a:focus {
   .go2top:focus:hover {
     color: #fff;
     background: #3f5263;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /*--------------------------------------------------
 	[FORM CONTROL]
@@ -294,7 +315,8 @@ a:focus {
   min-width: 100px;
   min-height: 50px;
   border-radius: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border-color: #3b4e5f;
   background: rgba(255, 255, 255, 0.7); }
   .form-control:-moz-placeholder {
@@ -306,7 +328,8 @@ a:focus {
   .form-control::-webkit-input-placeholder {
     color: #516473; }
   .form-control:focus {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     border-color: #3b4e5f;
     background: #fff;
 }
@@ -364,9 +387,12 @@ a:focus {
   line-height: 1.5;
   border-radius: 0;
   border: 2px solid #fff !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-white:focus, .btn-brd-white:active:focus, .btn-brd-white.active:focus {
     background-image: none;
     outline: 0;
@@ -377,9 +403,12 @@ a:focus {
     color: #3f5263;
     background: #fff;
     border-color: #fff;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-white.btn-lg {
   display: inline-block;
@@ -398,9 +427,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #fff !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-white.btn-lg:focus, .btn-brd-white.btn-lg:active:focus, .btn-brd-white.btn-lg.active:focus {
     background-image: none;
     outline: 0;
@@ -411,9 +443,12 @@ a:focus {
     color: #3f5263;
     background: #fff;
     border-color: #fff;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-white.btn-md {
   display: inline-block;
@@ -432,9 +467,12 @@ a:focus {
   line-height: 1.35;
   border-radius: 0;
   border: 2px solid #fff !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-white.btn-md:focus, .btn-brd-white.btn-md:active:focus, .btn-brd-white.btn-md.active:focus {
     background-image: none;
     outline: 0;
@@ -445,9 +483,12 @@ a:focus {
     color: #3f5263;
     background: #fff;
     border-color: #fff;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-white.btn-sm {
   display: inline-block;
@@ -466,9 +507,12 @@ a:focus {
   line-height: 1.3;
   border-radius: 0;
   border: 2px solid #fff !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-white.btn-sm:focus, .btn-brd-white.btn-sm:active:focus, .btn-brd-white.btn-sm.active:focus {
     background-image: none;
     outline: 0;
@@ -479,9 +523,12 @@ a:focus {
     color: #3f5263;
     background: #fff;
     border-color: #fff;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /* Button Bordered Primary */
 .btn-brd-primary {
@@ -501,9 +548,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #3f5263 !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-primary:focus, .btn-brd-primary:active:focus, .btn-brd-primary.active:focus {
     background-image: none;
     outline: 0;
@@ -514,9 +564,12 @@ a:focus {
     color: #fff;
     background: #3f5263;
     border-color: #3f5263;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-primary.btn-lg {
   display: inline-block;
@@ -535,9 +588,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #3f5263 !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-primary.btn-lg:focus, .btn-brd-primary.btn-lg:active:focus, .btn-brd-primary.btn-lg.active:focus {
     background-image: none;
     outline: 0;
@@ -548,9 +604,12 @@ a:focus {
     color: #fff;
     background: #3f5263;
     border-color: #3f5263;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-primary.btn-md {
   display: inline-block;
@@ -569,9 +628,12 @@ a:focus {
   line-height: 1.35;
   border-radius: 0;
   border: 2px solid #3f5263 !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-primary.btn-md:focus, .btn-brd-primary.btn-md:active:focus, .btn-brd-primary.btn-md.active:focus {
     background-image: none;
     outline: 0;
@@ -582,9 +644,12 @@ a:focus {
     color: #fff;
     background: #3f5263;
     border-color: #3f5263;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-primary.btn-sm {
   display: inline-block;
@@ -603,9 +668,12 @@ a:focus {
   line-height: 1.3;
   border-radius: 0;
   border: 2px solid #3f5263 !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-primary.btn-sm:focus, .btn-brd-primary.btn-sm:active:focus, .btn-brd-primary.btn-sm.active:focus {
     background-image: none;
     outline: 0;
@@ -616,9 +684,12 @@ a:focus {
     color: #fff;
     background: #3f5263;
     border-color: #3f5263;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /* Button Danger */
 .btn-danger {
@@ -638,9 +709,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-danger:focus, .btn-danger:active:focus, .btn-danger.active:focus {
     background-image: none;
     outline: 0;
@@ -651,9 +725,12 @@ a:focus {
     color: #fff;
     background: #bf5757;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-danger.btn-lg {
   display: inline-block;
@@ -672,9 +749,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-danger.btn-lg:focus, .btn-danger.btn-lg:active:focus, .btn-danger.btn-lg.active:focus {
     background-image: none;
     outline: 0;
@@ -685,9 +765,12 @@ a:focus {
     color: #fff;
     background: #bf5757;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-danger.btn-md {
   display: inline-block;
@@ -706,9 +789,12 @@ a:focus {
   line-height: 1.35;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-danger.btn-md:focus, .btn-danger.btn-md:active:focus, .btn-danger.btn-md.active:focus {
     background-image: none;
     outline: 0;
@@ -719,9 +805,12 @@ a:focus {
     color: #fff;
     background: #863a3a;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-danger.btn-sm {
   display: inline-block;
@@ -740,9 +829,12 @@ a:focus {
   line-height: 1.3;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-danger.btn-sm:focus, .btn-danger.btn-sm:active:focus, .btn-danger.btn-sm.active:focus {
     background-image: none;
     outline: 0;
@@ -753,9 +845,12 @@ a:focus {
     color: #fff;
     background: #bf5757;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /* Button Bordered Danger */
 .btn-brd-danger {
@@ -775,9 +870,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-danger:focus, .btn-brd-danger:active:focus, .btn-brd-danger.active:focus {
     background-image: none;
     outline: 0;
@@ -788,9 +886,12 @@ a:focus {
     color: #fff;
     background: #d15d5d;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-danger.btn-lg {
   display: inline-block;
@@ -809,9 +910,12 @@ a:focus {
   line-height: 1.4;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-danger.btn-lg:focus, .btn-brd-danger.btn-lg:active:focus, .btn-brd-danger.btn-lg.active:focus {
     background-image: none;
     outline: 0;
@@ -822,9 +926,12 @@ a:focus {
     color: #fff;
     background: #d15d5d;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-danger.btn-md {
   display: inline-block;
@@ -843,9 +950,12 @@ a:focus {
   line-height: 1.35;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-danger.btn-md:focus, .btn-brd-danger.btn-md:active:focus, .btn-brd-danger.btn-md.active:focus {
     background-image: none;
     outline: 0;
@@ -856,9 +966,12 @@ a:focus {
     color: #fff;
     background: #d15d5d;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 .btn-brd-danger.btn-sm {
   display: inline-block;
@@ -877,9 +990,12 @@ a:focus {
   line-height: 1.3;
   border-radius: 0;
   border: 2px solid #d15d5d !important;
-  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .btn-brd-danger.btn-sm:focus, .btn-brd-danger.btn-sm:active:focus, .btn-brd-danger.btn-sm.active:focus {
     background-image: none;
     outline: 0;
@@ -890,9 +1006,12 @@ a:focus {
     color: #fff;
     background: #d15d5d;
     border-color: #d15d5d;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /*--------------------------------------------------
 	[SPACES]
@@ -1356,9 +1475,12 @@ a:focus {
         content: " ";
         position: absolute;
         background: rgba(129, 129, 129, 0.1);
-        transition-duration: 300ms;
+        -webkit-transition-duration: 300ms;
+                transition-duration: 300ms;
+        -webkit-transition-property: all;
         transition-property: all;
-        transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+        -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+                transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
       .team-bg .team-members .team-avatar img {
         display: block;
         margin: 0 auto;
@@ -1374,9 +1496,6 @@ a:focus {
       -webkit-transform: translate3d(0, 10%, 0);
       transform: translate3d(0, 10%, 0);
       -webkit-transition: opacity 0.3s;
-      -moz-transition: opacity 0.3s;
-      -ms-transition: opacity 0.3s;
-      -o-transition: opacity 0.3s;
       transition: opacity 0.3s; }
       .team-bg .team-members .team-desc .team-details {
         float: left; }
@@ -1411,9 +1530,12 @@ a:focus {
                 color: #d15d5d; }
     .team-bg .team-members:hover .team-avatar:after {
       background: rgba(47, 60, 72, 0.5);
-      transition-duration: 300ms;
+      -webkit-transition-duration: 300ms;
+              transition-duration: 300ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .team-bg .team-members:hover .team-desc {
       -webkit-transform: translate3d(0, -5%, 0);
       transform: translate3d(0, -5%, 0);
@@ -1422,9 +1544,6 @@ a:focus {
     .team-bg .team-members:hover .team-desc {
       opacity: 1;
       -webkit-transition: all 0.4s;
-      -moz-transition: all 0.4s;
-      -ms-transition: all 0.4s;
-      -o-transition: all 0.4s;
       transition: all 0.4s; }
   .team-bg .team-about {
     padding: 30px;
@@ -1484,14 +1603,20 @@ a:focus {
       border-color: #3194a4 transparent transparent transparent; }
     .clients .clients-quotes .client-quote {
       display: none;
-      transition-duration: 300ms;
+      -webkit-transition-duration: 300ms;
+              transition-duration: 300ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
       .clients .clients-quotes .client-quote.active {
         display: block;
-        transition-duration: 300ms;
+        -webkit-transition-duration: 300ms;
+                transition-duration: 300ms;
+        -webkit-transition-property: all;
         transition-property: all;
-        transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+        -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+                transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
       .clients .clients-quotes .client-quote p {
         padding: 0 20%;
         font-size: 19px;
@@ -1612,9 +1737,12 @@ a:focus {
         .footer-copyright .copyright-socials li i:hover {
           background: #303c47;
           color: #fff;
-          transition-duration: 400ms;
+          -webkit-transition-duration: 400ms;
+                  transition-duration: 400ms;
+          -webkit-transition-property: all;
           transition-property: all;
-          transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+          -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+                  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /*--------------------------------------------------
 	[CUBEPORTFOLIO]
@@ -1645,9 +1773,12 @@ a:focus {
       height: 100%;
       content: " ";
       position: absolute;
-      transition-duration: 300ms;
+      -webkit-transition-duration: 300ms;
+              transition-duration: 300ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .cube-portfolio .cbp-caption .cbp-caption-hover-gradient:after {
       top: 10px;
       left: 10px;
@@ -1655,9 +1786,12 @@ a:focus {
       bottom: 10px;
       content: " ";
       position: absolute;
-      transition-duration: 300ms;
+      -webkit-transition-duration: 300ms;
+              transition-duration: 300ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
   .cube-portfolio .cbp-caption:hover .cbp-caption-hover-gradient:before {
     opacity: .8;
     background: #3f5263; }
@@ -1676,15 +1810,21 @@ a:focus {
     display: inline-block;
     color: #3f5263;
     background: #fff;
-    transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+    -webkit-transition-property: all;
     transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .cube-portfolio .portfolio-icons i:hover {
       color: #fff;
       background: #d15d5d;
-      transition-duration: 300ms;
+      -webkit-transition-duration: 300ms;
+              transition-duration: 300ms;
+      -webkit-transition-property: all;
       transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+              transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
 
 /*--------------------------------------------------
     [Bootstrap Carousel]
@@ -1730,15 +1870,15 @@ a:focus {
     height: 100%;
     min-height: 580px; }
   .carousel .carousel-item-one {
-    background: url(../_img/bg/bg_slider1.jpg);
+    background: url(../img/bg/bg_slider1.jpg);
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-item-two {
-    background: url(../_img/bg/bg_slider2.jpg);
+    background: url(../img/bg/bg_slider2.jpg);
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-item-three {
-    background: url(../_img/bg/bg_slider3.jpg);
+    background: url(../img/bg/bg_slider3.jpg);
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-title-v1 {
@@ -1760,7 +1900,8 @@ a:focus {
   .carousel .carousel-position-three {
     top: 62%; }
   .carousel .carousel-caption .animate-delay {
-    animation-delay: 1s; }
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
 
 /* Stylesheet design for under max-width: 768px */
 @media (max-width: 768px) {
